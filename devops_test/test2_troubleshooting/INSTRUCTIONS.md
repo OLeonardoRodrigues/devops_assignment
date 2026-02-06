@@ -9,7 +9,7 @@ When the backend is working as expected, an HTTP GET request to the root endpoin
 ```json
 {
   "calculation_time_seconds": 2.07102404200009005,
-  "message": "Welcome to Yape",
+  "message": "Welcome to ZentraPay",
   "pi": 3.1415916535897743
 }
 ```
@@ -29,7 +29,7 @@ The exact values for `calculation_time_seconds` and `pi` may vary slightly betwe
    http://localhost:8081/
 
 3. Confirm that you receive a JSON response with:
-   - A `message` field containing "Welcome to Yape".
+  - A `message` field containing "Welcome to ZentraPay".
    - A `pi` field with a value close to π (around 3.14159...).
    - A `calculation_time_seconds` field indicating how long the calculation took.
 
@@ -63,7 +63,7 @@ Look tat this example:
 ```json
 {
   "calculation_time_seconds": 2.07102404200009005,
-  "message": "Welcome to Yape",
+  "message": "Welcome to ZentraPay",
   "pi": 3.1415916535897743
 }
 ```

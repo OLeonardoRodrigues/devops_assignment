@@ -28,7 +28,7 @@ def root():
 
     response = make_response(
         jsonify(
-            message="Welcome to Yape",
+            message="Welcome to ZentraPay",
             pi=pi_value,
             calculation_time_seconds=duration,
         )
