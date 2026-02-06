@@ -28,7 +28,7 @@ def root():
 
     response = make_response(
         jsonify(
-            message="Welcome to ZentraPay",
+            message="Welcome to Clawdbot",
             pi=pi_value,
             calculation_time_seconds=duration,
         )
