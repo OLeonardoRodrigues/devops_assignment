@@ -2,6 +2,8 @@
 
 This assignment is composed of three independent tests. You do not need to solve them in a specific order, but each one focuses on a different area.
 
+**There is no single "correct" solution in any of the tests. We are interested in your thought process, the trade-offs you consider, and how you communicate them.**
+
 ## Test 1 – Terraform
 
 - Work with infrastructure-as-code using Terraform.
@@ -38,4 +40,5 @@ This test focuses on working with a real Postgres instance, a non-trivial amount
 - How you validate that your changes make sense.
 - How clearly you explain the changes you made and why.
 
-There is no single "correct" solution in any of the tests. We are interested in your thought process, the trade-offs you consider, and how you communicate them.
+See the instructions in the `test3_postgres` folder for full details.
+
