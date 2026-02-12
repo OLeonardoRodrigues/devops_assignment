@@ -1,0 +1,221 @@
+ terraform apply plan.tfplan
+local_file.generated_files["QA-10"]: Creating...
+local_file.generated_files["QA-3"]: Creating...
+local_file.generated_files["QA-8"]: Creating...
+local_file.generated_files["PRD-4"]: Creating...
+local_file.generated_files["PRD-10"]: Creating...
+local_file.generated_files["PRD-3"]: Creating...
+local_file.generated_files["PRD-4"]: Creation complete after 0s [id=55491b871f676753cda58dbd0dd0dc0b5d8f4ba6]
+local_file.generated_files["PRD-1"]: Creating...
+local_file.generated_files["STG-10"]: Creating...
+local_file.generated_files["QA-8"]: Creation complete after 0s [id=66290ff29bb8cc67df8a29b6fccfaf26c5a2b63a]
+local_file.generated_files["STG-5"]: Creating...
+local_file.generated_files["QA-3"]: Creation complete after 0s [id=c0c4eb622ce1eb289ce070f5910e0fcb0078b62f]
+local_file.generated_files["QA-9"]: Creating...
+local_file.generated_files["QA-10"]: Creation complete after 0s [id=1d18d4bf16122e82e7a6aae4890289e0de305a09]
+local_file.generated_files["QA-2"]: Creating...
+local_file.generated_files["STG-10"]: Creation complete after 0s [id=84e3896cdd5a5b2c072a4d6ef5e8bf8b0b4ab147]
+local_file.generated_files["PRD-1"]: Creation complete after 0s [id=41f3dee1d9947574b21247281305079ba6a45f79]
+local_file.generated_files["PRD-3"]: Creation complete after 0s [id=0ac5db3fdd4893673b85364bfac0319b9be37620]
+local_file.generated_files["PRD-10"]: Creation complete after 0s [id=5428f87d4830f1a1d88cb35dee688062d7996659]
+local_file.generated_files["STG-5"]: Creation complete after 0s [id=2a05deb5c533a9dc889f0dbcb7a4dd9de5c7b1ca]
+local_file.generated_files["PRD-6"]: Creating...
+local_file.generated_files["STG-9"]: Creating...
+local_file.generated_files["QA-9"]: Creation complete after 0s [id=ff5c132e7b5863773747121b01ed9b1fdc86bf89]
+local_file.generated_files["STG-3"]: Creating...
+local_file.generated_files["PRD-2"]: Creating...
+local_file.generated_files["STG-6"]: Creating...
+local_file.generated_files["QA-4"]: Creating...
+local_file.generated_files["STG-3"]: Creation complete after 0s [id=ab94a4bfb6e3cddac90e598bed37acbea7b1c0d2]
+local_file.generated_files["PRD-9"]: Creating...
+local_file.generated_files["QA-2"]: Creation complete after 0s [id=2173baa5f3614fcd8b4a4cac635892789216d509]
+local_file.generated_files["QA-5"]: Creating...
+local_file.generated_files["PRD-9"]: Creation complete after 0s [id=21e0ac431704d211038c7e276ad2c4bf76875c0c]
+local_file.generated_files["STG-9"]: Creation complete after 0s [id=7b87254c3b17195a147e1aef0604eb82b7f8cbc8]
+local_file.generated_files["PRD-6"]: Creation complete after 0s [id=ade884b4e020ec7bca0e4e1fded85cfb155948e7]
+local_file.generated_files["STG-1"]: Creating...
+local_file.generated_files["STG-7"]: Creating...
+local_file.generated_files["PRD-7"]: Creating...
+local_file.generated_files["QA-4"]: Creation complete after 0s [id=6c41da13da47c57f9bd24a9f5680c7ec0ad1641e]
+local_file.generated_files["PRD-8"]: Creating...
+local_file.generated_files["PRD-7"]: Creation complete after 0s [id=365718fb604426676227e17c2960e4d5e931b96b]
+local_file.generated_files["STG-2"]: Creating...
+local_file.generated_files["STG-4"]: Creating...
+local_file.generated_files["QA-5"]: Creation complete after 0s [id=131215bd105284eab9be35a45878bda2297e350f]
+local_file.generated_files["PRD-2"]: Creation complete after 0s [id=a3816b65ee9fa0e649ab5a78f0cf4367fa80b8bc]
+local_file.generated_files["STG-6"]: Creation complete after 0s [id=5c88d1dc3770aed3c4c64fa9f08b3d2df83102b7]
+local_file.generated_files["STG-1"]: Creation complete after 0s [id=371f1475d607bae36cbae5ef0203fcc421dde2b1]
+local_file.generated_files["STG-8"]: Creating...
+local_file.generated_files["QA-6"]: Creating...
+local_file.generated_files["PRD-5"]: Creating...
+local_file.generated_files["STG-7"]: Creation complete after 0s [id=9b49a4a2db75119cd8851b4fd198fb68e381c1d2]
+local_file.generated_files["PRD-8"]: Creation complete after 0s [id=5fdf0e64f208935ebc2fea739df39437e40ab4eb]
+local_file.generated_files["QA-7"]: Creating...
+local_file.generated_files["QA-1"]: Creating...
+local_file.generated_files["PRD-5"]: Creation complete after 0s [id=ce2abeef17d56f8e393b663a61d1fd305a0cbf07]
+local_file.generated_files["STG-2"]: Creation complete after 0s [id=b632f23dcb311cf7cffeb0a644aa638a57792e95]
+local_file.generated_files["STG-8"]: Creation complete after 0s [id=f0f239d635da1947f473c87ec0a14269e75928eb]
+local_file.generated_files["QA-6"]: Creation complete after 0s [id=d552a0dc4ce21760da2a938f295f9fa07a6e63fd]
+local_file.generated_files["STG-4"]: Creation complete after 0s [id=47e0742a435b67a53686c8c55e75205354c93764]
+local_file.generated_files["QA-7"]: Creation complete after 0s [id=31c42f2ec53b7df0da853e2dc528082e157033c2]
+local_file.generated_files["QA-1"]: Creation complete after 0s [id=4af6340cb65d82f2f05bfdb0f491ec5c511baebb]
+
+Apply complete! Resources: 30 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+files_map_debug = {
+  "PRD-1" = {
+    "env" = "PRD"
+    "num" = 1
+  }
+  "PRD-10" = {
+    "env" = "PRD"
+    "num" = 10
+  }
+  "PRD-2" = {
+    "env" = "PRD"
+    "num" = 2
+  }
+  "PRD-3" = {
+    "env" = "PRD"
+    "num" = 3
+  }
+  "PRD-4" = {
+    "env" = "PRD"
+    "num" = 4
+  }
+  "PRD-5" = {
+    "env" = "PRD"
+    "num" = 5
+  }
+  "PRD-6" = {
+    "env" = "PRD"
+    "num" = 6
+  }
+  "PRD-7" = {
+    "env" = "PRD"
+    "num" = 7
+  }
+  "PRD-8" = {
+    "env" = "PRD"
+    "num" = 8
+  }
+  "PRD-9" = {
+    "env" = "PRD"
+    "num" = 9
+  }
+  "QA-1" = {
+    "env" = "QA"
+    "num" = 1
+  }
+  "QA-10" = {
+    "env" = "QA"
+    "num" = 10
+  }
+  "QA-2" = {
+    "env" = "QA"
+    "num" = 2
+  }
+  "QA-3" = {
+    "env" = "QA"
+    "num" = 3
+  }
+  "QA-4" = {
+    "env" = "QA"
+    "num" = 4
+  }
+  "QA-5" = {
+    "env" = "QA"
+    "num" = 5
+  }
+  "QA-6" = {
+    "env" = "QA"
+    "num" = 6
+  }
+  "QA-7" = {
+    "env" = "QA"
+    "num" = 7
+  }
+  "QA-8" = {
+    "env" = "QA"
+    "num" = 8
+  }
+  "QA-9" = {
+    "env" = "QA"
+    "num" = 9
+  }
+  "STG-1" = {
+    "env" = "STG"
+    "num" = 1
+  }
+  "STG-10" = {
+    "env" = "STG"
+    "num" = 10
+  }
+  "STG-2" = {
+    "env" = "STG"
+    "num" = 2
+  }
+  "STG-3" = {
+    "env" = "STG"
+    "num" = 3
+  }
+  "STG-4" = {
+    "env" = "STG"
+    "num" = 4
+  }
+  "STG-5" = {
+    "env" = "STG"
+    "num" = 5
+  }
+  "STG-6" = {
+    "env" = "STG"
+    "num" = 6
+  }
+  "STG-7" = {
+    "env" = "STG"
+    "num" = 7
+  }
+  "STG-8" = {
+    "env" = "STG"
+    "num" = 8
+  }
+  "STG-9" = {
+    "env" = "STG"
+    "num" = 9
+  }
+}
+generated_files_list = [
+  "PRD/file1.txt",
+  "PRD/file10.txt",
+  "PRD/file2.txt",
+  "PRD/file3.txt",
+  "PRD/file4.txt",
+  "PRD/file5.txt",
+  "PRD/file6.txt",
+  "PRD/file7.txt",
+  "PRD/file8.txt",
+  "PRD/file9.txt",
+  "QA/file1.txt",
+  "QA/file10.txt",
+  "QA/file2.txt",
+  "QA/file3.txt",
+  "QA/file4.txt",
+  "QA/file5.txt",
+  "QA/file6.txt",
+  "QA/file7.txt",
+  "QA/file8.txt",
+  "QA/file9.txt",
+  "STG/file1.txt",
+  "STG/file10.txt",
+  "STG/file2.txt",
+  "STG/file3.txt",
+  "STG/file4.txt",
+  "STG/file5.txt",
+  "STG/file6.txt",
+  "STG/file7.txt",
+  "STG/file8.txt",
+  "STG/file9.txt",
+]
+total_files_created = 30

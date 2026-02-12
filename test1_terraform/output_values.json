@@ -1,0 +1,417 @@
+{
+  "files_map_debug": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "PRD-1": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-10": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-2": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-3": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-4": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-5": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-6": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-7": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-8": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "PRD-9": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-1": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-10": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-2": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-3": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-4": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-5": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-6": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-7": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-8": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "QA-9": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-1": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-10": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-2": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-3": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-4": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-5": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-6": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-7": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-8": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ],
+        "STG-9": [
+          "object",
+          {
+            "env": "string",
+            "num": "number"
+          }
+        ]
+      }
+    ],
+    "value": {
+      "PRD-1": {
+        "env": "PRD",
+        "num": 1
+      },
+      "PRD-10": {
+        "env": "PRD",
+        "num": 10
+      },
+      "PRD-2": {
+        "env": "PRD",
+        "num": 2
+      },
+      "PRD-3": {
+        "env": "PRD",
+        "num": 3
+      },
+      "PRD-4": {
+        "env": "PRD",
+        "num": 4
+      },
+      "PRD-5": {
+        "env": "PRD",
+        "num": 5
+      },
+      "PRD-6": {
+        "env": "PRD",
+        "num": 6
+      },
+      "PRD-7": {
+        "env": "PRD",
+        "num": 7
+      },
+      "PRD-8": {
+        "env": "PRD",
+        "num": 8
+      },
+      "PRD-9": {
+        "env": "PRD",
+        "num": 9
+      },
+      "QA-1": {
+        "env": "QA",
+        "num": 1
+      },
+      "QA-10": {
+        "env": "QA",
+        "num": 10
+      },
+      "QA-2": {
+        "env": "QA",
+        "num": 2
+      },
+      "QA-3": {
+        "env": "QA",
+        "num": 3
+      },
+      "QA-4": {
+        "env": "QA",
+        "num": 4
+      },
+      "QA-5": {
+        "env": "QA",
+        "num": 5
+      },
+      "QA-6": {
+        "env": "QA",
+        "num": 6
+      },
+      "QA-7": {
+        "env": "QA",
+        "num": 7
+      },
+      "QA-8": {
+        "env": "QA",
+        "num": 8
+      },
+      "QA-9": {
+        "env": "QA",
+        "num": 9
+      },
+      "STG-1": {
+        "env": "STG",
+        "num": 1
+      },
+      "STG-10": {
+        "env": "STG",
+        "num": 10
+      },
+      "STG-2": {
+        "env": "STG",
+        "num": 2
+      },
+      "STG-3": {
+        "env": "STG",
+        "num": 3
+      },
+      "STG-4": {
+        "env": "STG",
+        "num": 4
+      },
+      "STG-5": {
+        "env": "STG",
+        "num": 5
+      },
+      "STG-6": {
+        "env": "STG",
+        "num": 6
+      },
+      "STG-7": {
+        "env": "STG",
+        "num": 7
+      },
+      "STG-8": {
+        "env": "STG",
+        "num": 8
+      },
+      "STG-9": {
+        "env": "STG",
+        "num": 9
+      }
+    }
+  },
+  "generated_files_list": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "PRD/file1.txt",
+      "PRD/file10.txt",
+      "PRD/file2.txt",
+      "PRD/file3.txt",
+      "PRD/file4.txt",
+      "PRD/file5.txt",
+      "PRD/file6.txt",
+      "PRD/file7.txt",
+      "PRD/file8.txt",
+      "PRD/file9.txt",
+      "QA/file1.txt",
+      "QA/file10.txt",
+      "QA/file2.txt",
+      "QA/file3.txt",
+      "QA/file4.txt",
+      "QA/file5.txt",
+      "QA/file6.txt",
+      "QA/file7.txt",
+      "QA/file8.txt",
+      "QA/file9.txt",
+      "STG/file1.txt",
+      "STG/file10.txt",
+      "STG/file2.txt",
+      "STG/file3.txt",
+      "STG/file4.txt",
+      "STG/file5.txt",
+      "STG/file6.txt",
+      "STG/file7.txt",
+      "STG/file8.txt",
+      "STG/file9.txt"
+    ]
+  },
+  "total_files_created": {
+    "sensitive": false,
+    "type": "number",
+    "value": 30
+  }
+}

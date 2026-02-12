@@ -45,4 +45,83 @@ You can assume Terraform is already installed.
 After applying, you should see the generated files under the corresponding environment folders (`QA/`, `STG/`, `PRD/`).
 
 ## Take notes for what and why you did.
+
+### #1 Organization
+
+The directory structure was rethinked to separate concerns clearly and follow common Terraform repository conventions.
+
+New directory structure:
+```
+data.tf
+variables.tf
+locals.tf
+main.tf
+outputs.tf
+providers.tf
+versions.tf
+```
+
+This structure improves readability, maintainability, scalability and favor consistency.
+
+Keeping files such as `data.tf` in the structure
+
+### #2 Versioning
+
+The version constraints were set to:
+- Local Provider: "~> 2.6"
+- Terraform: "~> 1.14"
+
+This ensures compatibility within the same minor release while preventing breaking changes from newer minor versions.
+
+Version constraints provide reproducibility, predictability, safer upgrades and CI/CD stability.
+
+### #3 Set Variables
+
+The variables are defined to make the configuration flexible, explicit, and safe while avoiding hardcoding.
+
+Every variable was set with explicit flags to make intent clear and keep consistency.
+
+### #4 Building the Env/Number combinations
+
+The local `combinations` uses `setproduct()` creates every possible pair between the lists of environment and file numbers.
+
+The local `files` converts the local `combinations` into a map with unique keys which is a requirement to use `for_each`.
+
+### #5 Creating the Files Dinamically
+
+The `generated_files` resource with `for_each = local.files` creates a resource for each combination in the local `files`.
+
+The `user_texts` is added to each file based on the environment it was created for.
+
+### #6 Set Outputs
+
+The outputs are defined to expose useful information after terraform apply, making validation and debugging easier.
+
+Each output was configured with explicit flags (sensitive and ephemeral) to clearly define behavior and intent.
+
+### #7 Run Terraform Init/Plan/Apply
+
+After all of the configuration, the following steps were done:
+
+1. `terraform init`: which initialized the module and created [`.terraform.lock.hcl`](.terraform.lock.hcl)
+2. `terraform plan -out=plan.tfplan`: which created [`plan.tfplan`](plan.tfplan)
+3. `terraform apply plan.tfplan`: which created the files as expected, the logs of this process are available at [`tf-apply-logs.txt`](tf-apply-logs.txt)
+
+### #8 Export terraform outputs
+
+The values of the outputs generated were exported to json using the command below:
+`terraform output -json > output_values.json`
+
+This was done to further document the outcome and the process as a whole.
+
+### #9 Generate README.md using terraform-docs
+
+The tool terraform-docs generates automatic documentation for a Terraform module.
+
+Its configuration comes from the file [`.terraform-docs.yml`](.terraform-docs.yml) and it can be executed by running the command below from the root of the repository:
+
+`terraform-docs .`
+
+This will generate a new version of the [`README.md`](README.md) file.
+
 ## We will discuss it later.

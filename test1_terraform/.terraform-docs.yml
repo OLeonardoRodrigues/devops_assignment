@@ -1,0 +1,39 @@
+# More on terraform-docs: https://terraform-docs.io/user-guide/configuration/
+
+formatter: "markdown document"
+
+version: "~> v0.21.0"
+
+recursive:
+  enabled: false
+
+sections:
+  show:
+    - all
+
+output:
+  file: README.md
+  mode: replace
+
+output-values:
+  enabled: true
+  from: "output_values.json"
+
+sort:
+  enabled: true
+  by: required
+
+settings:
+  anchor: true
+  color: true
+  default: true
+  description: true
+  escape: true
+  hide-empty: true
+  html: true
+  indent: 2
+  lockfile: true
+  read-comments: true
+  required: true
+  sensitive: true
+  type: true
