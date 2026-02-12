@@ -1,0 +1,44 @@
+hey -n 100 -c 1   -H "User-Agent: Mozilla/5.0"   http://localhost:8081/
+
+Summary:
+  Total:	180.5509 secs
+  Slowest:	2.2011 secs
+  Fastest:	0.9952 secs
+  Average:	1.8055 secs
+  Requests/sec:	0.5539
+
+  Total data:	11473 bytes
+  Size/request:	114 bytes
+
+Response time histogram:
+  0.995 [1]	|■■
+  1.116 [1]	|■■
+  1.236 [0]	|
+  1.357 [4]	|■■■■■■■■
+  1.478 [3]	|■■■■■■
+  1.598 [8]	|■■■■■■■■■■■■■■■■■
+  1.719 [19]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  1.839 [16]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  1.960 [15]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.081 [19]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  2.201 [14]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Latency distribution:
+  10%% in 1.4947 secs
+  25%% in 1.7000 secs
+  50%% in 1.8065 secs
+  75%% in 1.9991 secs
+  90%% in 2.1073 secs
+  95%% in 2.1921 secs
+  99%% in 2.2011 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0007 secs, 0.0002 secs, 0.0013 secs
+  DNS-lookup:	0.0003 secs, 0.0001 secs, 0.0008 secs
+  req write:	0.0001 secs, 0.0000 secs, 0.0001 secs
+  resp wait:	1.8000 secs, 0.9942 secs, 2.2001 secs
+  resp read:	0.0047 secs, 0.0001 secs, 0.0924 secs
+
+Status code distribution:
+  [200]	100 responses

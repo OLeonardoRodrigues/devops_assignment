@@ -6,11 +6,17 @@ app = Flask(__name__)
 
 def calculate_pi(iterations: int = 1_000_000) -> float:
     pi = 0.0
-    sign = 1.0
-    for i in range(iterations):
-        pi += sign / (2 * i + 1)
-        sign *= -1.0
-    return 4.0 * pi
+    denominator = 1
+    pairs = iterations // 2
+
+    for _ in range(pairs):
+        pi += (4.0 / denominator) - (4.0 / (denominator + 2))
+        denominator += 4
+
+    if iterations % 2:
+        pi += 4.0 / denominator
+
+    return pi
 
 
 @app.get("/")
