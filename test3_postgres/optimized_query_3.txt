@@ -1,0 +1,12 @@
+challenge=#  DO $$
+BEGIN
+  FOR i IN 1..100 LOOP
+    PERFORM *
+    FROM addresses
+    WHERE user_id = 42
+    ORDER BY created_at DESC;
+  END LOOP;
+END;
+$$;
+DO
+Time: 80.128 ms

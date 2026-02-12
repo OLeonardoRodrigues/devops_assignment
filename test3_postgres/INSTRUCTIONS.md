@@ -136,8 +136,8 @@ Provide the following artifacts:
 
 1. `optimized_query.sql` with your final query that returns all addresses for a given user.
 2. A short `README.md` or notes that include:
-   - Why you chose your final query shape.
+  - Why you chose your final query shape.
   - A brief summary of any schema or performance-related changes you made, commands and sql executed.
   - A brief summary of the **before vs. after** behavior or performance. Explain what is better now or not.
-  
+
 This completes the Postgres query and index optimization test.

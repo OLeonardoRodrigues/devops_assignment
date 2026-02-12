@@ -1,0 +1,14 @@
+challenge=# DO $$
+BEGIN
+  FOR i IN 1..100 LOOP
+    PERFORM *
+    FROM users u
+    RIGHT JOIN addresses a
+      ON a.user_id = u.id
+    WHERE u.id = 42
+    ORDER BY a.created_at DESC;
+  END LOOP;
+END;
+$$;
+DO
+Time: 21816.836 ms (00:21.817)
