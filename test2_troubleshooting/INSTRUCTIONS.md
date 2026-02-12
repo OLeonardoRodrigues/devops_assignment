@@ -173,4 +173,9 @@ CORS(app)
 flask-cors==6.0.2
 ```
 
+To know which flask-cors version to use the command used was:
+``pip index versions Flask-Cors``
+
+The fixes seem to have fixed the issue.
+
 ## We will discuss it later.
