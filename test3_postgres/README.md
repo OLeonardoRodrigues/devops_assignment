@@ -132,4 +132,8 @@ ON addresses (user_id);
 
 A new test was executed after the index was configured and there's a massive improvement (~80 ms for 100 executions, AVG ~0.8 ms per request).
 
+## Conclusion
 
+The initial implementation performed poorly because the query structure and schema did not support the actual access pattern. Removing the unnecessary join simplified the query but did not significantly improve performance, as the main bottleneck was the lack of indxing on `addresses.user_id`.
+
+The decisive improvement came from aligning the schema with the workload by adding an index on `user_id`. This reduced average execution time from ~218 ms per request to ~0.8 ms per request, demonstrating that proper indexing is the key factor in achieving scalable performance for highly selective queries on large datasets.

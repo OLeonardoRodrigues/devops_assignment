@@ -1,8 +1,10 @@
 import time
 from flask import Flask, jsonify, make_response, request
+from flask_cors import CORS
 
 app = Flask(__name__)
 
+CORS(app)
 
 def calculate_pi(iterations: int = 1_000_000) -> float:
     pi = 0.0

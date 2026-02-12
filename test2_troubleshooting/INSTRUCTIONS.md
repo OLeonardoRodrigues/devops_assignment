@@ -140,4 +140,37 @@ Switching to PyPy produced the largest performance gain (~86–92%).
 
 Combining PyPy with optimized code reduced the average time from 2.89s to 0.24s, roughly a 12x overall speed increase.
 
+---
+
+### Another smaller fix
+
+Whenever the request was made from the frontend the result would be:
+`Error calling backend: TypeError: NetworkError when attempting to fetch resource.`
+
+So to fix what seemed to be a CORS issue, two adjustments were done:
+
+**app.py before**
+```python
+import time
+from flask import Flask, jsonify, make_response, request
+
+app = Flask(__name__)
+```
+
+**app.py after**
+```python
+import time
+from flask import Flask, jsonify, make_response, request
+from flask_cors import CORS
+
+app = Flask(__name__)
+
+CORS(app)
+```
+
+**flask-cors added to requirements.txt**
+```text
+flask-cors==6.0.2
+```
+
 ## We will discuss it later.
